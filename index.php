@@ -93,7 +93,6 @@ if(isset($_GET['token'])){
 				<div class="panel panel-info">
 					<div class="panel panel-heading"><center><i class="fa fa-check"></i> TeamSpeak³ Leaderboard</center></div>
 					<div class="panel panel-body">
-						<center><a href="ts3server://<?php echo $ts3ip; ?>?port=<?php echo $ts3port; ?>">Connect</a></center>
 						<table class="table table-responsive">
 							<thead>
 								<th>#</th>
@@ -135,8 +134,9 @@ if(isset($_GET['token'])){
 							</tbody>
 						</table>
 					</div>
-					<div class="panel panel-footer"><center><center>Made by CoinCaptcha</center></center></div>
+					<div class="panel panel-footer"><center><center>Made by FlareCO/CoinCaptcha</center></center></div>
 				</div>
+				<p class="pull-right"><a href="https://r4p3.net">R4P3</a></p>
 			</div>
 			<div class="col-md-3">
 				
